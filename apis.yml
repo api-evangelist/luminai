@@ -1,7 +1,27 @@
 aid: luminai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/luminai.png
 name: Luminai
-description: Luminai is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Luminai is an AI-powered automation platform for health system operations, marketed
+  as "The AI Platform for Health System Operations." It automates complex, high-volume healthcare
+  back-office workflows including referral intake and processing, provider inbox automation, patient
+  registration, orders and referrals, pharmacy renewals, payor contract management, denial appeals,
+  and underpayment recovery. The company reports over 12 million automations driven, an average 5.3x
+  ROI, and a 48-day average time to value, with enterprise-grade security and flexible deployment
+  options (on-premises, VPC, or fully managed). Luminai is SOC 2, HIPAA, and GDPR compliant. It is a
+  venture-backed company in the General Catalyst portfolio. Luminai does not publish a public developer
+  API, API documentation, or developer portal at this time; this profile captures its public identity
+  and security posture.
 url: https://raw.githubusercontent.com/api-evangelist/luminai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Health System Operations
+- Automation
+- Artificial Intelligence
+- AI Agents
+- Workflow Automation
+- Revenue Cycle Management
+- Business Process Automation
 apis: []
+common:
+- type: TrustCenter
+  url: security/luminai-trust-center.yml
+- type: DomainSecurity
+  url: security/luminai-domain-security.yml
+- type: Website
+  url: https://luminai.com
+  name: Luminai Website
+- type: Blog
+  url: https://luminai.com/blog
+  name: Luminai Blog
+- type: Compliance
+  url: https://luminai.com/security
+  name: Security & Compliance (SOC 2, HIPAA, GDPR)
+- type: TermsOfService
+  url: https://luminai.com/terms
+  name: Terms of Service
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
