@@ -50,7 +50,7 @@ tags:
 - Automation
 - Artificial Intelligence
 - AI Agents
-- Workflow-Automation
+- Workflow Automation
 - Revenue Cycle Management
 - Business Process Automation
 tags_raw:
@@ -63,6 +63,7 @@ tags_raw:
 - Workflow Automation
 - Revenue Cycle Management
 - Business Process Automation
+- Workflow-Automation
 apis: []
 common:
 - type: TrustCenter
